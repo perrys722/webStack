@@ -1,4 +1,5 @@
 $lt-gray: #ddd;
+$floral: #fffaf0;
 $background-dark: #512DA8;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
@@ -64,6 +65,19 @@ body {
             top: 0;
             left: 0;
             min-height: 300px;
+        }
+    }
+}
+
+.modal {
+    background: $background-light;
+    .modal-header {
+        background: $background-dark;
+        .modal-header-text {
+            color:$floralwhite
+        }
+        .close{
+            color:floralwhite
         }
     }
 }
